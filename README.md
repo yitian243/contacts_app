@@ -8,14 +8,15 @@ The app allows you to:
 - Search contacts by name, email, or company.
 - Click on a contact to view detailed information in a modal.
 
----
-
-## Demo
-
-https://github.com/yitian243/contacts_app
 
 ---
 
+## Live Demo
+
+You can view the live application here:  
+[https://yitian243.github.io/contacts_app/](https://yitian243.github.io/contacts_app/)
+
+---
 ## Features
 
 - Fully responsive design.
