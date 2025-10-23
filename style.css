@@ -45,8 +45,8 @@ body {
 
 .search-input {
     flex: 1;
-    min-width: 200px;     /* won't shrink too small */
-    max-width: 350px;     /* won't grow too wide */
+    min-width: 200px;
+    max-width: 350px;
     padding: 10px 15px;
     border-radius: 10px;
     border: none;
