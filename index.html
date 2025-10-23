@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>Contacts</h1>
+        <p>Browse and search your contacts</p>
+    </div>
+
+    <div class="controls">
+        <input type="text" id="searchInput" placeholder="Search by name, email, or company" class="search-input">
+        <select id="sortSelect">
+            <option value="">Sort by</option>
+            <option value="name">Name</option>
+            <option value="company">Company</option>
+            <option value="city">City</option>
+        </select>
+        <select id="companyFilter">
+            <option value="">Filter by company</option>
+        </select>
+        <select id="cityFilter">
+            <option value="">Filter by city</option>
+        </select>
+    </div>
+
+    <div class="results-count" id="resultsCount"></div>
+
+    <div id="loadingState" class="loading">
+        <div class="spinner"></div>
+        <p>Loading contacts...</p>
+    </div>
+
+    <div id="contactsGrid" class="contacts-grid"></div>
+
+    <div id="noResults" class="no-results" style="display:none;">
+        <h2>No contacts found</h2>
+        <p>Try adjusting your search or filters</p>
+    </div>
+</div>
+
+<div id="modal" class="modal">
+    <div id="modalContent" class="modal-content"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
